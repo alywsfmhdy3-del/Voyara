@@ -1,0 +1,109 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Sensitive Configuration Files
+flutter/
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+.env
+.env.*
+*.txt
+secrets.json
+
+# .NET environment
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Flutter / Dart environment
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.ipr
+*.iws
+
+# The .vscode folder contains bare-minimum workspace settings.
+# Keep launch.json and settings.json if you want to share debug / standard configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+voyara_app/build/
+voyara_app/.dart_tool/
+voyara_app/.flutter-plugins
+voyara_app/.flutter-plugins-dependencies
+voyara_app/.pub-cache/
+voyara_app/.pub/
+
+# Web
+voyara_app/lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will automatically add this to its gitignore, 
+# but it's good to have here too.
+voyara_app/android/app/src/main/res/values/secrets.xml
+
+# macOS
+.DS_Store
+.agent/
+
+# Local Scratch and IDE configs
+.idea/
+scratch/
+*.html
+*.py
+
+# LaTeX Build Artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.log
+
+# Temp & Scratch files
+scratch_*.md
+*.zip
+benchmark_results.json
+# Local proxy scripts
+agentrouter_proxy.js
+run_claude.bat
